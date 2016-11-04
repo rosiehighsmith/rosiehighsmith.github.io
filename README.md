@@ -1,24 +1,5 @@
-== README
+# PORTFOLIO README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Synopsis
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This is my personal portfolio page, a single page, single screen responsive site. It's built using Aerial by HTML5 UP. Check it out [here](http://www.rosie-highsmith.com/)!
