@@ -1,52 +1,224 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
+<!DOCTYPE html>
 <html>
 	<head>
-		<link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
-		<title>Rosie Highsmith</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Rosie Highsmith's Portfolio</title>
+
+		<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+		<!-- <link rel="stylesheet" href="css/animate.css"> -->
+		<link rel="stylesheet" href="assets/css/style.css">
+
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- Leave those next 4 lines if you care about users using IE8 -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
 	</head>
-	<body class="loading">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+	<body>
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Rosie Highsmith</h1>
-						<p>Software Developer &nbsp;&bull;&nbsp; Human person &nbsp;&bull;&nbsp; Learning it all-ish</p>
-						<nav>
-							<ul>
-								<li><a href="https://www.linkedin.com/in/rosiehighsmith" class="icon fa-linkedin"><span class="label">Twitter</span></a></li>
-								<li><a href="https://github.com/rosiehighsmith" class="icon fa-github"><span class="label">Github</span></a></li>
-								<li><a href="https://twitter.com/rosiehighsmith" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="mailto:rosiehighsmith@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
-							</ul>
-						</nav>
-					</header>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    	<!-- <p class="navbar-text navbar-right"><a href="#" class="navbar-link">Get In Touch</a></p> -->
+		    <!-- <p class="navbar-text">Hire Me</p> -->
+		  </div>
+		</nav>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
+		<div class="container-fluid">
 
+			<div class="text-center">
+				<img src="img/twitter.jpg" width=200 class="profile-pic">
+				<h1>Rosie Highsmith</h1>
+			  <h4>Full Stack Developer</h4>
+
+			  <div class="text-center" style="margin:20px">
+			  	<a href="https://ie.linkedin.com/in/rosiehighsmith" class="linkedin-btn" target="_blank">
+			  		<img src="img/linkedin-logo.png" width="100">
+			  	</a>
+			  	&nbsp;
+			  	<a href="https://github.com/rosiehighsmith" class="linkedin-btn" target="_blank">
+			  		<img src="img/github-logo.png" width="100">
+			  	</a>
+			  </div>
+			  <!-- <p>...and some mobile apps too</p> -->
+			  <!-- <p style="margin-top:20px"">*Also love building other things, like VBA macros, mobile applications, chat bots, and the odd motorbike...</p> -->
 			</div>
+
+
+			<div class="row row-grey">
+			    <div class="col-sm-8 col-sm-offset-2">
+			    	<!-- <h2>Skills</h2>
+			    	<h3>Frontend</h3>
+			    	<h3>Backend</h3>
+			    	<h3>Mobile App</h3>
+			    	<h3>Frameworks</h3> -->
+			    	<!-- <h2>Work</h2> -->
+
+			    	<div class="row work-item-row">
+			    		<div class="col-lg-8 col-lg-push-5">
+			    			<img src="img/projects/flixter.png" class="img-responsive">
+			    		</div>
+			    		<div class="col-lg-4 col-lg-pull-8">
+			    			<h2>Viducation</h2>
+			    			<p>A two-sided, video-streaming learning platform that features credit card payment capabilities for premium courses, user role management for teachers and students, complex user interfaces, and advanced database relationships.</p>
+			    			<h4>Technology</h4>
+			    			<p>Viducation uses Bootstrap3 for a mobile-first layout, with JavaScript and jQuery for easy page manipulation. Stripe is used for secure credit card payments, Devise for user security, ImageMagick for photo auto-resizing, and Carrierwave for image/video uploads. On the backend a Rails app lives on a Heroku dyno all created within a Vagrant environment.</p>
+			    		</div>
+			    		<div class="row text-center">
+			    			<div class="col-xs-12">
+			    				<img src="img/techlogos/rails.png" class="techlogo" width="100">
+				    			<img src="img/techlogos/bootstrap.png" class="techlogo" width="100">
+				    			<img src="img/techlogos/jquery.png" class="techlogo" width="100">
+			    				<img src="img/techlogos/stripe.svg" class="techlogo" width="100">
+			    			</div>
+			    		</div>
+			    		<div class="text-center" style="margin:20px;">
+			    				<a class="btn btn-launch" href="http://viducation.herokuapp.com/" target="blank">Launch App</a>
+		    			</div>
+			    	</div>
+					</div>
+			</div>
+
+			<div class="row row-white">
+			    <div class="col-sm-8 col-sm-offset-2">
+			    	<!-- <h2>Skills</h2>
+			    	<h3>Frontend</h3>
+			    	<h3>Backend</h3>
+			    	<h3>Mobile App</h3>
+			    	<h3>Frameworks</h3> -->
+			    	<!-- <h2>Work</h2> -->
+
+			    	<div class="row work-item-row">
+			    		<div class="col-lg-8 col-lg-pull-1">
+			    			<img src="img/projects/chess.png" class="img-responsive">
+			    		</div>
+			    		<div class="col-lg-4">
+			    			<h2>Chess Application</h2>
+			    			<p>Worked on an Agile software development team building a chess application. Under the guidance of a senior software engineer, we had weekly Agile team meetings for code reviews, sprint planning, and feature assignments.</p>
+			    			<h4>Technology</h4>
+			    			<p>The Chess App was on a Rails backend using JavaScript for dynamic game functionality and for Materialize for CSS styling. TravisCI was used for continuous integration and deployment and Rubocop was utilized to maintain consistent Ruby formatting. For Agile team productivity and transparency, we used tools of Trello and Slack.</p>
+			    		</div>
+			    		<div class="row text-center">
+			    			<div class="col-xs-12">
+			    				<img src="img/techlogos/rails.png" class="techlogo" width="100">
+			    				<img src="img/techlogos/materialize.png" class="techlogo" height="45">
+			    				<img src="img/techlogos/javascript.png" class="techlogo" width="100">
+			    				<img src="img/techlogos/jquery.png" class="techlogo" width="100">
+			    			</div>
+			    		</div>
+			    		<div class="text-center" style="margin:20px;">
+			    				<a class="btn btn-launch" href="https://github.com/checkmates1/chess-" target="blank">View on Github</a>
+		    			</div>
+			    	</div>
+					</div>
+			</div>
+
+			<div class="row row-grey">
+			    <div class="col-sm-8 col-sm-offset-2">
+			    	<div class="row work-item-row">
+			    		<div class="col-lg-8 col-lg-push-5 text-center">
+			    			<img src="img/projects/grammable.png" class="img-responsive">
+			    		</div>
+			    		<div class="col-lg-4 col-lg-pull-8">
+			    			<h2>YesFilter</h2>
+			    			<p>An Instagram clone that was built using industry-standard, test-driven development following numerous red/green/refactor cycles.</p>
+			    			<h4>Technology</h4>
+			    			<p>YesFilter has automated tests with RSpec on each key feature of the application. Carrierwave is used for image uploading, AWS S3 for photo storage, Twitter Bootstrap 3 for styling, and Devise for user security. The application is running on Rails on the backend.</p>
+			    		</div>
+			    		<div class="row text-center">
+			    			<div class="col-xs-12">
+			    				<img src="img/techlogos/rails.png" class="techlogo" width="100">
+			    				<img src="img/techlogos/bootstrap.png" class="techlogo" width="100">
+			    				<img src="img/techlogos/rspec.png" class="techlogo" width="40">
+			    			</div>
+			    		</div>
+			    		<div class="text-center" style="margin:20px;">
+			    				<a class="btn btn-launch" href="https://yesfilter.herokuapp.com/" target="blank">Launch App</a>
+		    			</div>
+			    	</div>
+					</div>
+			</div>
+
+			<div class="row row-white">
+			    <div class="col-sm-8 col-sm-offset-2">
+			    	<div class="row work-item-row">
+			    		<div class="col-lg-8 col-lg-pull-1">
+			    			<img src="img/projects/nomster.png" class="img-responsive">
+			    		</div>
+			    		<div class="col-lg-4">
+			    			<h2>Nomster</h2>
+			    			<p> A Yelp clone that integrates with the Google Maps API and includes features like user comments, star ratings, image uploading, personal profile pages, and user authentication.</p>
+			    			<h4>Technology</h4>
+			    			<p>Nomster is built on the Ruby on Rails framework living on Heroku, with Twitter Bootstrap 3 for CSS components, AWS S3 for photo storage, and Devise for user forms and security.</p>
+			    		</div>
+			    		<div class="row text-center">
+			    			<div class="col-xs-12">
+			    				<img src="img/techlogos/rails.png" class="techlogo" width="100">
+			    				<img src="img/techlogos/aws.png" class="techlogo" width="100">
+			    				<img src="img/techlogos/devise.png" class="techlogo" width="100">
+			    			</div>
+			    		</div>
+			    		<div class="text-center" style="margin:20px;">
+			    				<a class="btn btn-launch" href="http://nomster-rosie-highsmith.herokuapp.com/" target="blank">Launch App</a>
+		    			</div>
+			    	</div>
+					</div>
+			</div>
+
+			<div class="row row-footer">
+			    <div class="col-sm-12 text-center">
+
+			    	<h3>Tools I Use</h3>
+			    	<br>
+    				<img src="img/tool-logos/slack.png" class="techlogo" height= "70">
+    				<img src="img/tool-logos/rubocop.png" class="techlogo" height= "70">
+    				<img src="img/tool-logos/heroku.png" class="techlogo" height= "70">
+    				<img src="img/tool-logos/travisCI.png" class="techlogo" height= "70">
+    				<img src="img/tool-logos/vagrant.svg" class="techlogo1" height= "50">
+    				<img src="img/tool-logos/git.png" class="techlogo" width="100">
+
+					</div>
+			</div>
+
+			<div class="row text-center">
+				<div class="col">
+  				<div style="margin:50px;">
+  					<h3 style="margin:50px 0 15px">Open to work opportunities - contact me:</h3>
+				  	<a href="https://ie.linkedin.com/in/rosiehighsmith" class="linkedin-btn" target="_blank">
+				  		<img src="img/linkedin-logo.png" width="100">
+				  	</a>
+				  	&nbsp;
+			  		<a href="https://github.com/rosiehighsmith" class="linkedin-btn" target="_blank">
+			  		<img src="img/github-logo.png" width="100">
+			  		</a>
+				  </div>
+				</div>
+			</div>
+
 		</div>
-		<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-		<script>
-			window.onload = function() { document.body.className = ''; }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
+
+		
+<!-- 
+		<div class="container-fluid">
+
+			
+
+		</div> -->
+
+<!-- 		<div class="text-center">
+				<p style="margin-top:20px"">*Also love building other things, like VBA macros, mobile applications, chat bots, and the odd motorbike...</p>
+			</div> -->
+
+
+
+		<!-- Including Bootstrap JS (with its jQuery dependency) so that dynamic components work -->
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- <script src="js/myScripts.js"></script> -->
 	</body>
 </html>
