@@ -7596,7 +7596,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9;
   background: #3b3d40;
-  opacity: .5;
+  opacity: 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-hero {
@@ -7639,7 +7639,7 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #fh5co-hero .fh5co-intro h2 {
-  color: #fff;
+  color: #3dbd90;
   font-size: 50px;
   line-height: 50px;
   font-weight: 700;
@@ -7654,9 +7654,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   line-height: 26px;
   letter-spacing: .05em;
+  color: #3dbd90;
 }
 #fh5co-hero .fh5co-intro .btn {
-  background: #2c9c80;
+  background: #ffab75;
 }
 #fh5co-hero .fh5co-intro .btn i {
   font-size: 20px;
@@ -7690,8 +7691,9 @@ h1, h2, h3, h4, h5, h6 {
   zoom: 1;
   *display: inline;
   float: left;
-  border: 2px solid #fff;
+  border: 2px solid #3dbd90;
   padding: 7px 10px 7px 12px;
+  color: #3dbd90;
 }
 .navbar-brand:hover {
   color: #fff;
@@ -7707,13 +7709,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .scrolled .navbar-brand {
-  color: #444;
+  color: #3dbd90;
 }
 .scrolled .navbar-brand:hover {
-  color: #000;
+  color: #3dbd90;
 }
 .scrolled .navbar-brand > span {
-  border-color: #444;
+  border-color: #3dbd90;
 }
 
 #fh5co-contact {
@@ -8674,7 +8676,7 @@ pre {
   *display: inline;
   width: 25px;
   height: 3px;
-  color: #fff;
+  color: #3dbd90;
   font: bold 14px/.4 Helvetica;
   text-transform: uppercase;
   text-indent: -55px;
@@ -8691,15 +8693,16 @@ pre {
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
+  color: #3dbd90;
 }
 .scrolled .fh5co-nav-toggle.active i::before, .scrolled .fh5co-nav-toggle.active i::after {
-  background: #000;
+  background: #3dbd90;
 }
 .scrolled .fh5co-nav-toggle i {
-  background: #000;
+  background: #3dbd90;
 }
 .scrolled .fh5co-nav-toggle i::before, .scrolled .fh5co-nav-toggle i::after {
-  background: #000;
+  background: #3dbd90;
 }
 
 .fh5co-nav-toggle i::before {
@@ -8764,7 +8767,7 @@ pre {
   z-index: 99;
   width: 100px;
   margin-top: 12px;
-  color: #fff;
+  color: #3dbd90;
   margin-left: -70px;
   font-family: "Montserrat", arial, sans-serif;
   letter-spacing: 2px;
@@ -8772,8 +8775,9 @@ pre {
   text-transform: uppercase;
 }
 .scrolled .fh5co-nav-toggle > span {
-  color: #000;
+  color: #3dbd90;
 }
+
 
 .owl-carousel .owl-controls,
 .owl-carousel-posts .owl-controls {
